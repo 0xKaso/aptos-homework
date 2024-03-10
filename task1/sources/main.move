@@ -1,9 +1,9 @@
-module 0x42::Lesson2{
+module 0x42::Task1 {
     struct Wallet has drop {
         balance: u64
     }
 
-    fun myWallet() : Wallet {
+    fun myWallet(): Wallet {
         Wallet { balance: 1000 }
     }
 
